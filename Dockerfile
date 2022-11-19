@@ -10,4 +10,4 @@ ADD https://github.com/google/go-jsonnet/releases/download/v0.19.1/go-jsonnet_0.
 
 RUN chmod +x /usr/bin/jb /usr/bin/tk /usr/bin/jsonnet
 
-USER argocd
+USER 999
