@@ -1,5 +1,7 @@
 FROM argoproj/argocd:v2.5.2
 
+ENV JB_VERSION=XXX
+
 USER root
 
 ADD https://github.com/jsonnet-bundler/jsonnet-bundler/releases/download/v0.5.1/jb-linux-amd64 /usr/bin/jb
